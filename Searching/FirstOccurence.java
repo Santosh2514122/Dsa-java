@@ -1,5 +1,4 @@
 package Searching.java;
-
 public class FirstOccurence {
     public static void findFirstAndLast(int arr[], int x)
     {
