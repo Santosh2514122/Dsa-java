@@ -8,7 +8,6 @@ public class MergeSort
         }
         System.out.println();
     }
-
     public static void mergeSort(int arr[], int si, int ei)//method
     {
         if (si >= ei) //base condition
@@ -62,3 +61,4 @@ public class MergeSort
 }
 //output
 //-2 3 4 6 7 8 9
+
