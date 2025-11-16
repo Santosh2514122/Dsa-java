@@ -1,21 +1,23 @@
 package Math;
 // count digit
+import java.util.Scanner;
 public class CountDigit {
     static int countDigits(int x)
     {
-        int res = 0;// let
+        int count = 0;// let
         while(x > 0)
         {
             x = x / 10;
 
-            res++;
+            count++;
         }
 
-        return res;
+        return count;
     }
     public static void main (String[] args) {
-
-        int number = 789;
+        Scanner obj=new Scanner(System.in);
+        System.out.println("enter the number :");
+        int number =obj.nextInt();
 
         System.out.println(countDigits(number));
     }

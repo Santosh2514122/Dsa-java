@@ -1,5 +1,5 @@
 package Math;
-// hcf of two number
+// hcf of two number  that means common parts
 public class Hcf //class
 {
     static int gcd(int a, int b)// method

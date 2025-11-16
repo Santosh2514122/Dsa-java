@@ -1,5 +1,4 @@
 package Math;
-
 public class CheckAllDivisior9 {
     // method to print the divisors
     static void printDivisors(int n)
