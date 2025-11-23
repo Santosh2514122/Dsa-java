@@ -1,5 +1,4 @@
 package String.important;
-
 public class CountCharFrequency {
     public static void main(String[] args) {
         String s = "hello";
@@ -14,3 +13,4 @@ public class CountCharFrequency {
         }
     }
 }
+
