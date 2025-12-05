@@ -1,8 +1,7 @@
 package Searching.java;
 public class Count1sInSortedarray {
     static int countOnes(int arr[], int n)
-    {
-        int low = 0, high = n - 1;
+    { int low = 0, high = n - 1;
         while(low <= high)
         {
             int mid = (low + high) / 2;
@@ -31,3 +30,4 @@ public class Count1sInSortedarray {
 
 }
 //4
+
